@@ -1,0 +1,57 @@
+#slider1{
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    
+    margin: auto;
+    top: -10px;
+    right: 0%;
+}
+.slider2{
+    place-items: center;
+    padding-bottom: 20%;
+    border-radius: 20px;
+    border: rgb(223, 147, 223) 3px;
+    margin-left: 20%;
+    width: 60%;
+    height: 500px;
+    background-image: url("./img/events/Sir1.jpg");
+    background-size: 100% ;
+    box-shadow: rgba(149, 157, 165, .2);
+    animation:changeImage 30s linear infinite;
+}
+@keyframes changeImage {
+    0%{
+        background-image: url(./img/events/Sir1.jpg);
+    }
+    25%{
+        background-image: url(./img/events/sir2.jpg);
+    }
+    50%{
+        background-image: url(./img/events/khilora1.jpg);
+    }
+    75%{
+        background-image: url(./img/events/khilora2.jpg);
+    }
+    100%{
+        background-image: url(./img/events/ss.jpg);
+    }
+    /* 0%{
+        background-image: url(./img/events/teach.jpg);
+    }
+    25%{
+        background-image: url(./img/events/sir.jpg);
+    }
+    50%{
+        background-image: url(./img/events/yoga.jpg);
+    }
+    75%{
+        background-image: url(./img/events/sir4.jpg);
+    }
+    100%{
+        background-image: url(./img/events/yoga2.jpg);
+    } */
+    
+}
