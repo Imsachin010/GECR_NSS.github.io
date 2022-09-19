@@ -20,7 +20,7 @@
     background-image: url(./img/events/Sir1.jpg);
     /* background-size: 100%; */
     box-shadow: rgba(149, 157, 165, .2);
-    animation: changeImage 30s linear infinite;
+    animation: changeImage 100s linear infinite;
 }
 @keyframes changeImage {
     0%{
