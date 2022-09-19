@@ -10,17 +10,17 @@
     right: 0%;
 }
 .slider2{
-    place-items: center;
-    padding-bottom: 20%;
+   place-items: center;
+    /* padding-bottom: 20%; */
     border-radius: 20px;
     border: rgb(223, 147, 223) 3px;
-    margin-left: 20%;
+    /* margin-left: 20%; */
     width: 60%;
     height: 500px;
-    background-image: url("./img/events/Sir1.jpg");
-    background-size: 100% ;
+    background-image: url(./img/events/Sir1.jpg);
+    /* background-size: 100%; */
     box-shadow: rgba(149, 157, 165, .2);
-    animation:changeImage 30s linear infinite;
+    animation: changeImage 30s linear infinite;
 }
 @keyframes changeImage {
     0%{
