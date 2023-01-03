@@ -1,0 +1,71 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photos & Gallery</title>
+    <link rel="stylesheet" href="./dist/output.css">
+    <link rel="stylesheet" href="style1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./photo.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <header class="navbar">
+        
+        <!-- navbar -->
+        <nav class="w-full fixed top-0 bg-indigo-900 z-10">
+            <div class="container mx-auto items-center py-5 flex justify-between">
+                <div class="flex items-center gap-2 ">
+                    <img class="w-10 " src="./img/logo.png" alt="">
+                    <span class="text-2xl font-bold text-white">NSS GEC RAIPUR</span>
+                </div>
+                <ul class="hidden md:flex space-x-10 text-white font-bold md:text-sm  uppercase ">
+                    <li class="hover:text-red-500">
+                        <a href="homepage">home</a>
+                    </li>
+                    <li class="hover:text-red-500">
+                        <a href="#gallery">gallery</a>
+                    </li>
+                    <li class="hover:text-red-500">
+                        <a href="#services">Services</a>
+                    </li>
+                    <li class="hover:text-red-500">
+                        <a href="#updates">updates</a>
+                    </li>
+                    <li class="hover:text-red-500">
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+    
+                <div id="hamburger" class="space-y-1 md:hidden cursor-pointer z-20">
+                    <div class="w-6 h-0.5 bg-black"></div>
+                    <div class="w-6 h-0.5 bg-black"></div>
+                    <div class="w-6 h-0.5 bg-black"></div>
+                </div>
+                <ul id="menu"
+                    class="hidden bg-indigo-900 absolute left-0 w-full top-0 p-10 rounded-b-3xl space-y-10  text-white text-center">
+                    <li>
+                        <a id="hlink" href="#homepage">home</a>
+                    </li>
+                    <li>
+                        <a id="hlink" href="#about">about us</a>
+                    </li>
+                    <li>
+                        <a id="hlink" href="#services">Services</a>
+                    </li>
+                    <li>
+                        <a id="hlink" href="#works">works</a>
+                    </li>
+                    <li>
+                        <a id="hlink" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
