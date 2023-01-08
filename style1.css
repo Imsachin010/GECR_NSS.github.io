@@ -63,6 +63,7 @@
     padding: 5px 5px;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    justify-content: space-between;
 }
 .contact{
     position: relative;
