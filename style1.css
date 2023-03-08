@@ -96,21 +96,21 @@
     margin: 10px;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content:space-evenly;
     align-items: center;
     margin-top: 30px;
 }
 .container1 .contactinfo{
     width:50;
     display: flex;
-    flex-direction:column;
+    flex-direction:row;
 }
 .container1 .contactinfo .box{
     position: relative;
     padding: 20px 0;
     display: flex;
 }
-.container1 .contactinfo .box .icon{
+/* .container1 .contactinfo .box .icon{
     min-width:60px;
     height: 60px;
     background: #fff;
@@ -119,7 +119,7 @@
     align-items: center;
     border-radius: 50%;
     font-size: 22px;
-}
+} */
 .container1 .contactinfo .box .text{
     display: flex;
     margin-left: 20px;
